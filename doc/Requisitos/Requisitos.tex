@@ -1,0 +1,61 @@
+
+\documentclass[twoside,letterpaper,12pt]{report}
+\usepackage{aux/samstyle}
+
+\author{
+Sergio Andrés Monsalve Castañeda \\
+smonsal3@eafit.edu.co\\
+Departamento de Informática y Sistemas \\[1cm]
+Presentado a:\\
+Maria Eugenia Puerta Yepes\\[0.2cm]
+Matemática Aplicada\\
+Departamento De Ciencias Matemáticas\\
+Universidad EAFIT\\[3cm] 
+Copyright \copyright \hspace{3pt} Universidad EAFIT 2015
+}
+
+\title{ \textbf{Modelo Matemático\\ Predicción de Dengue}\\
+Documento de Requisitos\\
+}
+
+\date{\today}
+%\includeonly{tex/arte,tex/intro}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\pagestyle{fancyplain}
+\fancyhf{}
+\headheight=30pt %para cambiar el tamaño del encabezado
+\renewcommand{\headrulewidth}{0pt} %espesor del encabezado
+
+\lhead %la "L" indica a la izquierda
+{
+\begin{minipage}{2cm}
+\includegraphics[width=1.5 in]{aux/Logo_EAFIT.jpg}
+\end{minipage}
+}
+
+\fancyfoot[c]{\thepage}
+
+\begin{abstract}
+El presente documento pretende proporcionar un listado de las espectativas del Cliente y el Usuario Final.
+Cliente: Departamento de Matematica Aplicada 
+Usuario Final: Medico Epidemiologo
+\end{abstract}
+
+\input{tex/intro} 
+\input{tex/Funcionales}
+\input{tex/Nofun}
+
+\bibliographystyle{ieeetr}
+\bibliography{aux/refs}
+
+\appendix
+\chapter{Notas}
+
+%\todo[inline,caption={TODO}]{To - do}
+
+\end{document}
