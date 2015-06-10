@@ -12,7 +12,7 @@ comp:
 	$(BUILDTEX)
 	
 clean:
-	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.pdf *.toc *.out *~
+	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.toc *.out *~
 
 open: clean
 	open $(PROJECT).pdf
