@@ -8,12 +8,13 @@
 * Leer de CVS
 * Leer de Consola
 * Leer de Excel
+* Leer desde el Framework
 
 
 #Canal Endémico
 
 
-Media Móvil
+##Media Móvil
 
 * Promedio
 * Desviaión
@@ -21,14 +22,14 @@ Media Móvil
 * IC 95% inferior
 
 
-Media geometríca
+##Media geometríca
 
 * Promedio
 * Desviaión
 * IC 95% Superior
 * IC 95% inferior
 
-Media Aritmética
+##Media Aritmética
 
 * Promedio
 * Desviaión
