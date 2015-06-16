@@ -1,4 +1,4 @@
-casos_dengue_*
+*.xlsx
 .DS_Store
 /tmp
 *.rbc

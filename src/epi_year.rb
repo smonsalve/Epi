@@ -1,11 +1,14 @@
+#!/usr/bin/env ruby
+
+
 class EpiYear
 
   attr_accessor :year, :semanas, :poblacion
 
   def initialize(year,poblacion)
-    @year = year
+    @year = year.to_i
     @semanas = []
-    @poblacion = poblacion
+    @poblacion = poblacion.to_i
   end
 
   def readSemanas
@@ -21,5 +24,6 @@ class EpiYear
 
 end
 
-e = EpiYear.new("2005",2456)
-puts e.to_s
+# e = EpiYear.new("2005",2456)
+# puts e.year
+
