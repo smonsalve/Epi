@@ -2,6 +2,8 @@
 
 require 'roo'
 require_relative 'epi_year'
+#require 'descriptive_statistics'
+require 'easystats'
 
 xlsx = Roo::Excelx.new("../input/Entradas.xlsx")
 # xlsx.each_row_streaming do |row|
@@ -33,14 +35,28 @@ header = hoja1.row(1)
 #   puts e
 # end
 
+years = []
+
 (hoja1.first_row..hoja1.last_row).each do |r|
   fila = hoja1.row(r)
   e =  EpiYear.new(fila[1], fila[54])
   (1..52).each { |a| e.semanas << fila[a].to_i }
   puts e
+  puts e.semanas.average
+  years << e
+end
+
+
+years.each do |y|
+	y.semanas
 end
 
 
 
+#years {year: e}
+
 #puts header
 # puts row
+
+
+

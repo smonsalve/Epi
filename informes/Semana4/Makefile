@@ -1,4 +1,4 @@
-PROJECT=Informe3
+PROJECT=Informe4
 TEX=pdflatex
 BIBTEX=bibtex
 BUILDTEX=$(TEX) $(PROJECT).tex
