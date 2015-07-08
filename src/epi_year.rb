@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-
 class EpiYear
 
   attr_accessor :year, :semanas, :poblacion
@@ -19,11 +18,7 @@ class EpiYear
   end
 
   def to_s
-    "#{@year} con población #{@poblacion}\n" + @semanas.to_s
+    "#{@year} con población #{@poblacion} y #{@semanas.count} Semanas\n" + @semanas.to_s
   end
-
 end
-
-# e = EpiYear.new("2005",2456)
-# puts e.year
 
