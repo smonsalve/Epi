@@ -2,20 +2,20 @@
 
   * Lectura de Base de Datos
   * Documentación Inicial
-  * Requisitos Funcionales y No Fucnionales
+  * Requisitos Funcionales y No Funcionales
   * Sketches
   * Normalización Base de Datos
 
 #Julio 15: Primera Entrega
 
   * Canal Endémico
-  * Graficas
+  * Gráficas
   * Georreferenciación
 
 #Agosto 15: Segunda Entrega
 
   * Optimización Front End
-  * Pruebas Fucnionales
+  * Pruebas Funcionales
   * Mapas
 
 #Septiembre 15: Entrega Final
