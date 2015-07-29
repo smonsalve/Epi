@@ -49,5 +49,7 @@ b = Matrix.rows(a)
   ic95_inferior << avrg - (2.02*(stdv/Math.sqrt(5)))
 end
 
- puts ic95_inferior
- puts ic95_superior
+
+#puts ic95_inferior
+puts promedio
+#puts ic95_superior
