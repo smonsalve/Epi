@@ -52,4 +52,4 @@ end
 
 #puts ic95_inferior
 puts promedio
-#puts ic95_superior
+puts ic95_superior
